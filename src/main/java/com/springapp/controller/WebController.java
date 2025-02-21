@@ -21,4 +21,5 @@ public class WebController {
         model.addAttribute("message", "Hello form BridgeLabz");
         return "message";
     }
+
 }
