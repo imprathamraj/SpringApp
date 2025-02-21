@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class Controller {
 
-    // UC1
+    // Simple GET request
     @GetMapping("/hello")
     public String hello(){
         return "Hello form BridgeLabz";
     }
+
 }
