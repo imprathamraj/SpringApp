@@ -15,6 +15,7 @@ public class WebController {
         model.addAttribute("hello","Hello from Pratham");
         return "hello";
     }
+
     @GetMapping("/web/message")
     public String message(Model model){
         model.addAttribute("message", "Hello form BridgeLabz");
