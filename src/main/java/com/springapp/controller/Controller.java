@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class Controller {
 
-    // UC4 Added Spring Boot Extension Pack
+    // UC1
     @GetMapping("/hello")
     public String hello(){
         return "Hello form BridgeLabz";
